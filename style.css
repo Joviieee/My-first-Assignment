@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo-holder{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.landing{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('./images/Background image.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header{
+    display: flex;
+    padding-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    justify-content: space-between;
+    gap: 10%;
+
+    
+}
+.elements{
+    display: inline;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.right-logo{
+    margin-left: 94%;
+    margin-top: -35px;
+    position: relative;
+}
+.color-overlay{
+    height: 28px;
+    width: 28px;
+    background: #FA7801;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 19px;
+    left: 13px;
+    z-index: 1;
+}
+.background-text{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    position: relative;
+}
+.first-h1{
+    font-weight: 600;
+    font-size: 4rem;
+}
+.first-p{
+    font-weight: 200;
+    font-size: 20px;
+}
+.searchbar{
+    height: 60px;
+    margin-top: 40px;
+    width: 320px;
+    border-radius: 32px;
+    background: inherit;
+    border: white 3px solid;
+}
+input[type="search"]::placeholder{
+    padding-left: 20px;
+    color: white;
+    font-weight: 200;
+    font-size: 19px;
+    font-family: "Poppins", serif;
+}
+.second-overlay{
+    height: 35px;
+    width: 35px;
+    background: #FA7801;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+    left: 59%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-div{
+    height: 50px;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(transparent, #FFFFFF);
+    top: -50px;
+}
+
+.choice{
+    width: 100%;
+    height: 40vh;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 70px;
+    margin-left: 5px;
+    margin-right: 13px;
+}
+.first-reason{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#h3{
+    font-size: 2em;
+    text-transform: capitalize;
+}
+.reason-head{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+}
+.reason-p{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+#reason-p{
+    color: #FA7801;
+}
+.arrow{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.products{
+    min-height: 100vh;
+    background-color: #f7F7F7;
+}
+.product-div{
+    padding-top: 60px;
+}
+.product-options{
+    width: 330px;
+    height: 70px;
+    background-color: #D9D9D9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 35px;
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    justify-content: space-around;
+    
+}
+
+#options{
+    height: 40px;
+    width: 65px;
+    background: inherit;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+.second-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    gap: 33px;
+
+}
+.chair{
+    padding-top: 10px;
+}
+.five{
+    margin-top: 14px;
+    margin-bottom: 25px;
+    height: 16px;
+}
+#chair{
+    width: 80%;
+}
+
+.relative{
+    position: relative;
+    top: 15px;
+}
+.last{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -13px;
+    right: 14px;
+}
+.inner-grid{
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+.bottom-text{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.experiences{
+    min-height: 100vh;
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    
+}
+.experience-container{
+    display: flex;
+    margin-top: 90px;
+    gap: 90px;
+}
+.h4{
+    text-transform: uppercase;
+    color: #FA7801;
+    letter-spacing: 4px;
+    font-weight: 600;
+    padding-top: 18px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.materials{
+    min-height: 100vh;
+
+}
+.materials-container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+    gap: 10px;
+    margin-top: 150px;
+}
